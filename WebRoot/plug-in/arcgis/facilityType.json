@@ -1,0 +1,66 @@
+[
+	{
+		"checked":false,"iconCls":null,"id":"roadBedGL","state":"open","attributes":null,"text":"路基",
+		"children":[
+			{"checked":false,"iconCls":null,"id":"2", 
+				"attributes":{"url":"","type":"line","symbol":""},
+				"text":"行车道"},
+			{"checked":false,"iconCls":null,"id":"3", "attributes":null,"text":"加宽车道"},
+			{"checked":false,"iconCls":null,"id":"4", "attributes":null,"text":"硬路肩"},
+			{"checked":false,"iconCls":null,"id":"5", "attributes":null,"text":"匝道"},
+			{"checked":false,"iconCls":null,"id":"6", "attributes":null,"text":"收费广场"},
+			{"checked":false,"iconCls":null,"id":"7", "attributes":null,"text":"中央绿化带"},
+			{"checked":false,"iconCls":null,"id":"8", "attributes":null,"text":"路缘石"},
+			{"checked":false,"iconCls":null,"id":"9", "attributes":null,"text":"路基边坡"},
+			{"checked":false,"iconCls":null,"id":"10", "attributes":null,"text":"挡土墙"}
+		]
+	},
+	{
+		"checked":false,"iconCls":null,"id":"structureGL","state":"open","attributes":null,"text":"构造物",
+		"children":[
+			{"checked":false,"iconCls":null,"id":"12", "attributes":null,"text":"桥"},
+			{"checked":false,"iconCls":null,"id":"13", "attributes":null,"text":"隧道"},
+			{"checked":false,"iconCls":null,"id":"14", "attributes":null,"text":"涵洞"}
+		]
+	},
+	{
+		"checked":false,"iconCls":null,"id":"roadFacilityGL","state":"open","attributes":null,"text":"沿线设施",
+		"children":[
+			{"checked":false,"iconCls":null,"id":"16",
+				"attributes":{"url":"markController.do?gisExhibition","type":"point","symbol":"markSymbol"},
+				"text":"标志"},
+			{"checked":false,"iconCls":null,"id":"17", "attributes":null,"text":"标线"},
+			{"checked":false,"iconCls":null,"id":"18", "attributes":null,"text":"隔离栅"},
+			{"checked":false,"iconCls":null,"id":"19", "attributes":null,"text":"防护网"},
+			{"checked":false,"iconCls":null,"id":"20", "attributes":null,"text":"防眩板"},
+			{"checked":false,"iconCls":null,"id":"21", 
+				"attributes":{"url":"guardrailController.do?gisExhibition","type":"line","symbol":"guardrailSymbol"},
+				"text":"护栏"},
+			{"checked":false,"iconCls":null,"id":"22", "attributes":null,"text":"防撞垫"},
+			{"checked":false,"iconCls":null,"id":"23", "attributes":null,"text":"声屏障"},
+			{"checked":false,"iconCls":null,"id":"24", "attributes":null,"text":"沿线空地"},
+			{"checked":false,"iconCls":null,"id":"25", 
+				"attributes":{"url":"lightsController.do?gisExhibition","type":"point","symbol":"lightsSymbol"},
+				"text":"路灯"},
+			{"checked":false,"iconCls":null,"id":"26", "attributes":null,"text":"紧急出口"},
+			{"checked":false,"iconCls":null,"id":"27", "attributes":null,"text":"避险车道"}
+		]
+	},
+	{
+		"checked":false,"iconCls":null,"id":"drainGL","state":"open","attributes":null,"text":"排水系统",
+		"children":[
+			{"checked":false,"iconCls":null,"id":"29", "attributes":null,"text":"边沟"},
+			{"checked":false,"iconCls":null,"id":"30", "attributes":null,"text":"方沟"},
+			{"checked":false,"iconCls":null,"id":"31", "attributes":null,"text":"盲沟"},
+			{"checked":false,"iconCls":null,"id":"32", "attributes":null,"text":"渗沟"},
+			{"checked":false,"iconCls":null,"id":"33", 
+				"attributes":{"url":"paiShuiGouController.do?gisExhibition","type":"line","symbol":"paiShuiGouSymbol"},
+				"text":"排水沟"},
+			{"checked":false,"iconCls":null,"id":"34", "attributes":null,"text":"拦水带"},
+			{"checked":false,"iconCls":null,"id":"35", "attributes":null,"text":"截水沟"},
+			{"checked":false,"iconCls":null,"id":"36", "attributes":null,"text":"跌水"},
+			{"checked":false,"iconCls":null,"id":"37", "attributes":null,"text":"急流槽"},
+			{"checked":false,"iconCls":null,"id":"38", "attributes":null,"text":"横向排水沟"}
+		]
+	}
+]
